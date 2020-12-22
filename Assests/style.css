@@ -17,16 +17,24 @@
 }
 
 #home-banner {
-    background-image: url('../Assests/pictures/home_banner.jpeg');
+    background-image: url('../Assests/pictures/home_banner.png');
     height: 750px;
 }
 
 #home-banner-text {
     max-height: 750px;
-    background-color: rgba(0, 0, 0, 0.6);
-    margin-top: 540px;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    margin-top: 600px;
 }
 
 /* #home-banner-text-column {
     height: 750px;
 } */
+
+#lives-saved-banner {
+    background-color: darkseagreen;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+

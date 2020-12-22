@@ -1,10 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -15,7 +18,7 @@
 
 </head>
 
-<body style = "background-image: url('../Assests/pictures/home_banner.jpeg')">
+<body>
 
   <header>
     <div class="container-fluid sticky-top mx-auto row justify-content-center" id="nav-bar-container">
@@ -66,7 +69,6 @@
               <div class="text-white">
                 <h1 class="mb-3">2 Styles Rescue</h1>
                 <h4 class="mb-3">Miniature Horses / Donkeys / Mules</h4>
-                <a class="btn btn-outline-light btn-lg" href="#!" role="button">Call to action</a>
               </div>
             </div>
           </div>
@@ -76,24 +78,26 @@
     <!-- Background image -->
 
     <!-- <div class="container-fluid no-padding">
-        <img src="Assests/pictures/home_banner.jpeg" class="img-fluid" alt="Responsive image">
+        <img src="Assests/pictures/home_banner.png" class="img-fluid" alt="Responsive image">
       </div> -->
   </header>
 
 
-  <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
+  <div class="container-fluid" id = "lives-saved-banner">
+    <h1 class="display-3"><span id = "lives-saved-banner-number">0 </span> Lives Saved to Date</h1>
+
   </div>
 
+
+  <script>
+    count = 100;
+    $("#lives-saved-banner-number").text(count).css;
+  </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
     crossorigin="anonymous"></script>
+
 </body>
 
 </html>
