@@ -1,5 +1,5 @@
-.body{
-    background-image: url("../Assests/pictures/background.jpeg");
+body{
+    background-image: url("../Assests/pictures/background.png");
 }
 /* .header{
     max-height: 100%;
@@ -17,7 +17,7 @@
 }
 
 #home-banner {
-    background-image: url('../Assests/pictures/background.jpeg');
+    /* background-image: url('../Assests/pictures/background.png'); */
     /* height: 750px; */
     min-width: 100%;
 }
@@ -28,8 +28,8 @@
 
 #home-banner-text {
     /* max-height: 500px; */
-    background-color: rgba(0, 0, 0, 0.6);
-    margin-top: 0px;
+    background-color:#bc8fbc91;
+    margin-top: -93px;
 } 
 
 /* #home-banner-text-column {
@@ -41,5 +41,6 @@
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
+    margin-top: -16px;
 }
 
