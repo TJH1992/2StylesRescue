@@ -1,10 +1,11 @@
 body{
     background-image: url("../Assests/pictures/background.png");
 }
-/* .header{
-    max-height: 100%;
 
-} */
+header{
+
+
+}
 #nav-bar-container{
     background-color: darkseagreen;
     
@@ -17,30 +18,32 @@ body{
 }
 
 #home-banner {
-    /* background-image: url('../Assests/pictures/background.png'); */
-    /* height: 750px; */
-    min-width: 100%;
+    position: relative;
+    text-align: center;
 }
 
-#home-banner-img {
-    min-width: 100%;
+.img-fluid {
+    width: 90%;
 }
 
 #home-banner-text {
     /* max-height: 500px; */
     background-color:#bc8fbc91;
-    margin-top: -93px;
+    position: absolute;
+    top: 87.8%;
+    left: 5.9%;
+    width: 88.2%;
+    /* margin-top: -93px; */
 } 
 
-/* #home-banner-text-column {
-    height: 750px;
-} */
+#home-banner-text-column {
+    /* margin-left: 100px; */
+}
 
 #lives-saved-banner {
     background-color: darkseagreen;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
-    margin-top: -16px;
 }
 
