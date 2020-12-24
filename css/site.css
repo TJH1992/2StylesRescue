@@ -5,15 +5,27 @@ body{
     background-repeat: repeat;
    }
 
+#banner-container{
+    margin-top: 75px;
+}
+
   #banner-row{
     background-color:black;
     color: white;
 }
 
-
+/* .navbar .navbar-nav {
+    display: inline-flex;
+    float: left;
+  }
+  
+  .navbar .navbar-collapse {
+    text-align: center;
+  } */
 
 #nav-bar-container{
     background-color: darkseagreen;
+    margin-top: -10px;
     /* width:150%; */
 }
 
