@@ -1,0 +1,49 @@
+body{
+    /* padding-top: 3rem;
+    padding-bottom: 3rem; */
+    background-image: url("../Assests/pictures/background.png");
+    background-repeat: repeat;
+   }
+
+  #banner-row{
+    background-color:black;
+    color: white;
+}
+
+
+
+#nav-bar-container{
+    background-color: darkseagreen;
+    /* width:150%; */
+}
+
+#narbar-brand {
+    color: black;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#nav-bar-link{
+    color: black;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#lives-saved-banner {
+    background-color: darkseagreen;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#inquirer-banner-col-1-img {
+    background-color: darkseagreen;
+    height: 80%;
+}
+
+#inquirer-banner-col-2-bg {
+    background-color: darkseagreen;
+}
+#inquirer-banner-col-3-img {
+    background-color: darkseagreen;
+}
