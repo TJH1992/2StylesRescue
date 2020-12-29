@@ -23,10 +23,9 @@ body{
     text-align: center;
   } */
 
-#nav-bar-container{
+/* #nav-bar-container{
     background-color: darkseagreen;
     margin-top: -10px;
-    /* width:150%; */
 }
 
 #narbar-brand {
@@ -41,21 +40,173 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#lives-saved-banner {
+*/
+
+/* #inquirer-banner{
+    background-color: darkseagreen;
+} */
+
+.navbar{ background:darkseagreen;}
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ background: #f4f4f4; color: darkseagreen; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;}
+
+
+.header{
+    background-image: url('../Assests/pictures/home_banner.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 57.9rem;
+   }
+
+   .overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.623);
+   }
+
+   .description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    
+}
+.description h1{
+ color: darkseagreen ;
+}
+.description p{
+ color:#666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid darkseagreen;
+ background:darkseagreen;
+ color:#fff;
+}
+
+   #lives-saved-banner {
     background-color: darkseagreen;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
-}
+} 
 
-#inquirer-banner-col-1-img {
-    background-color: darkseagreen;
-    height: 80%;
-}
+.about{
+    margin: 4em 0;
+    padding: 5em;
+    position: relative;
+    background: rgba(244, 244, 244, 0.815);
+   }
+   /* .about h1{
+    color: #10828C;
+    margin: 2em; 
+    
+   } */
+   .about img{
+    height: 100%;
+       width: 100%;
+       border-radius: 50%
+   }
+   .about span{
+    display: block;
+    color: #10828C;
+    position: relative;
+    /* left: 115px; */
+    text-align: center;
 
-#inquirer-banner-col-2-bg {
+   }
+   .about .desc{
+    padding: 2em;
+    border-left:4px solid #10828C;
+   }
+   .about .desc h3{
+    color: #10828C;
+   }
+   .about .desc p{
+    line-height:2;
+    color:black;
+   }
+
+   .about2{
+    margin: 4em 0;
+    padding: 5em;
+    position: relative;
+    background: rgba(244, 244, 244, 0.815);
+   }
+   /* .about h1{
+    color: #10828C;
+    margin: 2em; 
+    
+   } */
+   .about2 img{
+    height: 100%;
+       width: 100%;
+       border-radius: 50%
+   }
+   .about2 span{
+    display: block;
+    color: #10828C;
+    position: relative;
+    /* left: 115px; */
+    text-align: center;
+
+   }
+   .about2 .desc{
+    padding: 2em;
+    border-right:4px solid #10828C;
+   }
+   .about2 .desc h3{
+    color: #10828C;
+   }
+   .about2 .desc p{
+    line-height:2;
+    color:black;
+   }
+
+   .instagram{
+    margin: 4em 0;
+       position: relative; 
+       background: rgba(244, 244, 244, 0.815);
+       padding: 2em 0;
+   }
+   .instagram h1{
+    color:#10828C;
+    margin: 1em; 
+   }
+   .instagram h3{
+    color:#10828C;
+   }
+   .instagram img{
+     height: 15rem;
+     width: 100%;
+     margin: 1em;
+     
+   }
+
+
+   /*********************************************/
+/*              FOOTER CSS                  "/
+/*********************************************/
+ 
+.footer {
     background-color: darkseagreen;
-}
-#inquirer-banner-col-3-img {
-    background-color: darkseagreen;
-}
+    padding-top: 20px;
+  }
+  .footer p {
+    color: #000;
+  }
+
