@@ -1,52 +1,11 @@
-body{
-    /* padding-top: 3rem;
-    padding-bottom: 3rem; */
+/* body{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
     background-image: url("../Assests/pictures/background.png");
     background-repeat: repeat;
-   }
+   } */
 
-#banner-container{
-    margin-top: 75px;
-}
-
-  #banner-row{
-    background-color:black;
-    color: white;
-}
-
-/* .navbar .navbar-nav {
-    display: inline-flex;
-    float: left;
-  }
-  
-  .navbar .navbar-collapse {
-    text-align: center;
-  } */
-
-/* #nav-bar-container{
-    background-color: darkseagreen;
-    margin-top: -10px;
-}
-
-#narbar-brand {
-    color: black;
-    font-size: large;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-#nav-bar-link{
-    color: black;
-    font-size: large;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-*/
-
-/* #inquirer-banner{
-    background-color: darkseagreen;
-} */
-
-.navbar{ background:darkseagreen;}
+/* .navbar{ background:darkseagreen;}
 
 .nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
 
@@ -98,12 +57,6 @@ body{
  color:#fff;
 }
 
-   #lives-saved-banner {
-    background-color: darkseagreen;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-} 
 
 .about{
     margin: 4em 0;
@@ -111,11 +64,6 @@ body{
     position: relative;
     background: rgba(244, 244, 244, 0.815);
    }
-   /* .about h1{
-    color: #10828C;
-    margin: 2em; 
-    
-   } */
    .about img{
     height: 100%;
        width: 100%;
@@ -125,7 +73,7 @@ body{
     display: block;
     color: #10828C;
     position: relative;
-    /* left: 115px; */
+    left: 115px;
     text-align: center;
 
    }
@@ -147,11 +95,6 @@ body{
     position: relative;
     background: rgba(244, 244, 244, 0.815);
    }
-   /* .about h1{
-    color: #10828C;
-    margin: 2em; 
-    
-   } */
    .about2 img{
     height: 100%;
        width: 100%;
@@ -161,7 +104,7 @@ body{
     display: block;
     color: #10828C;
     position: relative;
-    /* left: 115px; */
+    left: 115px;
     text-align: center;
 
    }
@@ -175,7 +118,14 @@ body{
    .about2 .desc p{
     line-height:2;
     color:black;
-   }
+   } */
+
+   #lives-saved-banner {
+    background-color: darkseagreen;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+} 
 
    .instagram{
     margin: 4em 0;
@@ -198,10 +148,244 @@ body{
    }
 
 
+/*********************************************/
+/*              GENERAL CSS                  "/
+/*********************************************/
+ 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  color: #343a40;
+  padding-top: 5rem;
+  background-image: url("../Assests/pictures/background.png");
+  background-repeat: repeat;
+}
+a {
+  outline: none;
+  color: darkseagreen;
+  text-decoration: none !important;
+}
+a:hover {
+  color: darkseagreen;
+}
+p {
+  line-height: 1.9;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+
+/*********************************************/
+/*              UTILITY CSS                  "/
+/*********************************************/
+ 
+.text-sub {
+    color: #9b9bae !important;
+  }
+  .bg-grey {
+    background-color: #F8F6FA !important;
+  }
+  .title {
+    color: #343a40;
+  }
+  .header-colorize {
+    font-weight: 700;
+    color: darkseagreen;
+  }
+  .section {
+    padding: 120px 0px 120px 0px;
+    position: relative;
+  }
+  .size-14 {
+    font-size: 14px;
+  }
+  .size-15 {
+    font-size: 15px;
+  }
+  .size-18 {
+    font-size: 18px;
+  }
+  .right-icon {
+    line-height: 0;
+    font-size: 19px;
+  }
+  .learn-more {
+    color: darkseagreen;
+    font-weight: 700;
+  }
+  .highlight {
+    background: rgba(122, 96, 183, 0.1);
+    -webkit-box-shadow: 0 1px 2px rgba(122, 96, 183, 0.5);
+    box-shadow: 0 1px 2px rgba(122, 96, 183, 0.5);
+    color: darkseagreen;
+    border-radius: 13px;
+    display: inline-block;
+    padding: .25em .4em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+  .header-bg {
+    /* padding: 170px 0 140px; */
+    padding: 500px 0 400px;
+    background-image: url('../Assests/pictures/home_banner4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    z-index: 998;
+  }
+  .header-bg .header-title h1, p, a{
+    z-index: 1100;
+    /* background-color: rgba(244, 244, 244, 0.582); */
+  }
+  .header-bg .main-title {
+    font-size: 2.8rem;
+    line-height: 1.35;
+    color: darkseagreen;
+  }
+
+
+/*********************************************/
+/*              NAVBAR CSS                  "/
+/*********************************************/
+
+
+.nav-item .nav-link {
+    text-decoration: none;
+    display: inline-block;
+    color: #343a40;
+  }
+  .navbar-kleo {
+    margin-bottom: 0px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background-color: darkseagreen;
+    padding: 14px 0px;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 997;
+  }
+  .navbar-brand {
+    cursor: pointer;
+  }
+  .navbar-kleo .navbar-nav li a {
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    font-weight: 600;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background-color: transparent !important;
+    padding: 6px 0;
+    margin: 0 20px;
+  }
+  .navbar-kleo .navbar-nav li .nav-link {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .navbar-kleo .navbar-toggles {
+    font-size: 18px;
+    background: 0 0;
+    border: 1px solid transparent;
+    color: #ffffff;
+    outline: 0;
+    padding: .26rem .76rem;
+  }
+  .navbar-kleo .navbar-nav li.active a, .navbar-kleo .navbar-nav li a:hover, .navbar-kleo .navbar-nav li a:active {
+    color: #ffffff !important;
+    
+  }
+  .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: transparent;
+    border-color: #6C55A3;
+  }
+  .navbar-toggler {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: #000;
+  }
+  .fas.fa-bars {
+    color: #6C55A3 !important;
+  }
+  .sticky-nav.navbar-kleo .navbar-toggles {
+    border: 1px solid transparent;
+    padding: .26rem .76rem;
+    outline: 0;
+  }
+  .sticky-nav.navbar-kleo {
+    margin-top: 0px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.06);
+    color: #000000 !important;
+  }
+  .sticky-nav.navbar-kleo .navbar-nav {
+    margin-top: 0px;
+  }
+  .sticky-nav.navbar-kleo .navbar-nav li a {
+    color: #8a8aa0 !important;
+  }
+  .sticky-nav.navbar-kleo .navbar-nav li.active a, .sticky-nav.navbar-kleo .navbar-nav li a:hover, .sticky-nav.navbar-kleo .navbar-nav li a:active {
+    color: #6C55A3 !important;
+  }
+  .navbar-toggler:focus {
+    outline: none;
+  }
+
+
+
+  /*********************************************/
+/*              BUTTONS CSS                  "/
+/*********************************************/
+ 
+.btn {
+  border-radius: 4px;
+  padding: 12px 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  font-weight: 700;
+  font-size: 15px !important;
+}
+.btn:focus {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.btn:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+.btn.btn-primary {
+  color: #ffffff;
+  background-color: darkseagreen !important;
+  border: 1px solid #6C55A3 !important;
+  -webkit-box-shadow: 0 4px 20px rgba(94, 98, 255, 0.15);
+  box-shadow: 0 4px 20px rgba(94, 98, 255, 0.15);
+}
+.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary.focus, .btn.btn-primary:active, .btn.btn-primary.active {
+  background-color: #53407f !important;
+  border: 1px solid #53407f !important;
+  -webkit-box-shadow: 0 3px 10px rgba(94, 98, 255, 0.5);
+  box-shadow: 0 3px 10px rgba(94, 98, 255, 0.5);
+  color: #ffffff !important;
+}
+
+
+ 
+
+
+
+
    /*********************************************/
 /*              FOOTER CSS                  "/
 /*********************************************/
- 
 .footer {
     background-color: darkseagreen;
     padding-top: 20px;
@@ -210,3 +394,58 @@ body{
     color: #000;
   }
 
+/*********************************************/
+/*              RESPONSIVE CSS               "/
+/*********************************************/
+ 
+@media (min-width: 200px) and (max-width: 768px) {
+  .navbar-kleo {
+    background-color: #ffffff !important;
+    -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    margin-top: 0px;
+    color: #ffffff !important;
+  }
+  .navbar-toggler {
+    margin-bottom: 0px;
+    font-size: 24px;
+    margin-top: 0px;
+    color: #343a40;
+  }
+  .navbar-kleo .navbar-nav {
+    margin-top: 0px;
+  }
+  .navbar-kleo .navbar-nav li a {
+    margin: 0px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    color: #9b9bae !important;
+  }
+  .navbar-kleo>.container {
+    width: 90%;
+  }
+  .navbar-collapse {
+    padding: 0 20px;
+  }
+  .navbar-kleo .navbar-nav li.active a {
+    border-color: transparent;
+  }
+  .navbar-kleo .navbar-nav li.active a, .navbar-kleo .navbar-nav li a:hover, .navbar-kleo .navbar-nav li a:active {
+    color: #6C55A3 !important;
+  }
+}
+@media (max-width: 425px) {
+  .header-bg .main-title {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .header-bg {
+    padding: 120px 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header-bg {
+    background: none !important;
+  }
+}
